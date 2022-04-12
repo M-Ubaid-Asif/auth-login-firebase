@@ -1,0 +1,17 @@
+<%- include('./partials/navbar.ejs')%>
+<div
+  style="
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  "
+>
+  <img
+    src="<%= user.picture%>"
+    alt="user-profile"
+    style="border-radius: 50%; width: 200px; height: 200px"
+  />
+  <h2>Dashboard</h2>
+  <h4><%= user.name %></h4>
+</div>

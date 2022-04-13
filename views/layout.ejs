@@ -20,13 +20,14 @@
     <%- body %>
     <script>
       console.log(document.querySelector("#firebaseui-auth-container"));
+
       const config = {
-        apiKey: "AIzaSyBUIAAUpp9bWPv-j44_w3oxBcVXRcnSHrc",
-        authDomain: "node-login-92.firebaseapp.com",
-        projectId: "node-login-92",
-        storageBucket: "node-login-92.appspot.com",
-        messagingSenderId: "594863596932",
-        appId: "1:594863596932:web:d2dccb1d61caa37d2669d1",
+        apiKey: "<%- apiKey %>",
+        authDomain: "<%- authDomain %>",
+        projectId: "<%- projectId %>",
+        storageBucket: "<%- storageBucket %>",
+        messagingSenderId: "<%- messagingSenderId %>",
+        appId: "<%- appId %>",
       };
 
       firebase.initializeApp(config);

@@ -26,5 +26,5 @@ Simple login app where user can login using google/facebook/twitter account
 ### Run (In Terminal)
 
 npm run start
-or
+Or
 npm run dev

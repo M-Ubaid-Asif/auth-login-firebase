@@ -20,8 +20,8 @@ Simple login app where user can login using google/facebook/twitter account
 
 ### Project setup
 
-1- create .env file add the details as shown in env.example
-2- download firbase service account key json file rename it serviceAccountKey.json add it in root folder
+1. create .env file add the details as shown in env.example
+2. download firbase service account key json file rename it serviceAccountKey.json add it in root folder
 
 ### Run (In Terminal)
 
